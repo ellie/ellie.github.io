@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://ellie.wtf/sitemap.xml
+Sitemap: https://ellie.github.io/sitemap.xml

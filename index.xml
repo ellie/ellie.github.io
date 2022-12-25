@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ellie&#39;s Blog</title>
-    <link>https://ellie.wtf/</link>
+    <link>https://ellie.github.io/</link>
     <description>Recent content on Ellie&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Feb 2022 08:25:00 +0000</lastBuildDate><atom:link href="https://ellie.wtf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 08:25:00 +0000</lastBuildDate><atom:link href="https://ellie.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building an iPod for 2022</title>
-      <link>https://ellie.wtf/ipod/</link>
+      <link>https://ellie.github.io/ipod/</link>
       <pubDate>Mon, 14 Feb 2022 08:25:00 +0000</pubDate>
       
-      <guid>https://ellie.wtf/ipod/</guid>
+      <guid>https://ellie.github.io/ipod/</guid>
       <description>I modified an old iPod Video with more storage, a new casing, and more battery life. Also some fancy software :)</description>
       <content:encoded><![CDATA[<blockquote>
 <p>This also ended up getting picked up by <a href="https://www.vice.com/en/article/qjbexd/a-software-engineer-upgraded-an-old-ipod-for-2022">Vice</a>, <a href="https://hackaday.com/2022/02/16/classic-ipods-are-super-upgradeable-in-2022/">Hackaday</a>, <a href="https://www.techspot.com/community/topics/breathing-new-life-into-an-old-ipod-with-a-few-thoughtful-upgrades.273895/">Techspot</a>, as well as a <a href="https://www.xataka.com/musica/este-fantastico-ipod-tuneado-demuestra-que-amor-reproductores-mp3-antano-sigue-muy-vivo">whole</a>  <a href="https://www.macobserver.com/news/engineer-upgraded-ipod-video/">bunch</a> of other <a href="https://blog.adafruit.com/2022/02/16/building-an-ipod-for-2022-apple-aipod-ellie_huxtable/">publications</a>! Thank you so much for your interest in my work &lt;3</p>
@@ -147,10 +147,10 @@
     
     <item>
       <title>Don&#39;t forget the human</title>
-      <link>https://ellie.wtf/dont-forget-the-human/</link>
+      <link>https://ellie.github.io/dont-forget-the-human/</link>
       <pubDate>Mon, 27 Jul 2020 17:14:25 +0000</pubDate>
       
-      <guid>https://ellie.wtf/dont-forget-the-human/</guid>
+      <guid>https://ellie.github.io/dont-forget-the-human/</guid>
       <description>Computers are cold and heartless. They don&amp;rsquo;t lie, and they don&amp;rsquo;t care if you scream and swear at them. You can abuse them all day long, and they&amp;rsquo;ll still efficiently flip bits and push pixels.
 But&amp;hellip; people aren&amp;rsquo;t. Behind every piece of software, there&amp;rsquo;s at least one human. Who has a heart, and who cares what you think. Who has hopes, and dreams, and fears. Who feels.
 This is something I&amp;rsquo;ve been wanting to write in one form or another for quite a while now, and I&amp;rsquo;ve been rewriting this post for a little too long.</description>
@@ -182,10 +182,10 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
     
     <item>
       <title>I&#39;ve started a personal wiki</title>
-      <link>https://ellie.wtf/ive-started-a-personal-wiki/</link>
+      <link>https://ellie.github.io/ive-started-a-personal-wiki/</link>
       <pubDate>Fri, 10 Apr 2020 13:45:29 +0000</pubDate>
       
-      <guid>https://ellie.wtf/ive-started-a-personal-wiki/</guid>
+      <guid>https://ellie.github.io/ive-started-a-personal-wiki/</guid>
       <description>There&amp;rsquo;s not much there at the moment, but it&amp;rsquo;s something I&amp;rsquo;ve been meaning to do for a while.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>So it turns out this didn&rsquo;t work for me.I&rsquo;ll probably be writing something later on, when I figure out why!</p>
@@ -207,10 +207,10 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
     
     <item>
       <title>My tools are going Rusty</title>
-      <link>https://ellie.wtf/my-tools-are-pretty-rusty/</link>
+      <link>https://ellie.github.io/my-tools-are-pretty-rusty/</link>
       <pubDate>Sun, 29 Mar 2020 01:07:31 +0000</pubDate>
       
-      <guid>https://ellie.wtf/my-tools-are-pretty-rusty/</guid>
+      <guid>https://ellie.github.io/my-tools-are-pretty-rusty/</guid>
       <description>Command line tools, rewritten in Rust</description>
       <content:encoded><![CDATA[<p>Recently I&rsquo;ve been taking a look at replacements for common command line tools (and coreutils) - <code>ls</code>, <code>cat</code>, <code>find</code>, <code>grep</code>, etc. I don&rsquo;t really have many issues with the older tools, but I like shiny things. Turns out, people have been rewriting a lot of them in Rust</p>
 <h2 id="lsd">lsd</h2>
@@ -266,10 +266,10 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
     
     <item>
       <title></title>
-      <link>https://ellie.wtf/</link>
+      <link>https://ellie.github.io/</link>
       <pubDate>Wed, 26 Feb 2020 21:35:56 +0000</pubDate>
       
-      <guid>https://ellie.wtf/</guid>
+      <guid>https://ellie.github.io/</guid>
       <description>Today the final components arrived for my keyboard build! I&amp;rsquo;ve been waiting on these for quite a long time, as some were custom made + all came from abroad. This isn&amp;rsquo;t actually my first Planck build - the first was lost to a spilled energy drink.
 If you&amp;rsquo;re new to mechanical keyboards, a Planck is a &amp;ldquo;40%&amp;rdquo; keyboard. It is very small, with only 48 keys. The lack of keys is made up for by having extra layers!</description>
       <content:encoded><![CDATA[<p>Today the final components arrived for my keyboard build! I&rsquo;ve been waiting on these for quite a long time, as some were custom made + all came from abroad. This isn&rsquo;t actually my first Planck build - the first was lost to a spilled energy drink.</p>
@@ -320,10 +320,10 @@ If you&amp;rsquo;re new to mechanical keyboards, a Planck is a &amp;ldquo;40%&am
     
     <item>
       <title>Rest APIs and SwiftUI</title>
-      <link>https://ellie.wtf/rest-apis-and-swiftui/</link>
+      <link>https://ellie.github.io/rest-apis-and-swiftui/</link>
       <pubDate>Sun, 23 Feb 2020 00:37:20 +0000</pubDate>
       
-      <guid>https://ellie.wtf/rest-apis-and-swiftui/</guid>
+      <guid>https://ellie.github.io/rest-apis-and-swiftui/</guid>
       <description>Just answering a question from someone. SwiftUI has a neat pattern for handling async data responses</description>
       <content:encoded><![CDATA[<p>I recently had someone ask me how I handled fetching and rendering data from a REST API in a SwiftUI view.</p>
 <p>If you&rsquo;re coming from something like React, it&rsquo;s actually handled differently. We can&rsquo;t just fire off a request in <code>init</code> or <code>onAppear</code>, and update some <code>@State</code>. Awkwardness with <code>escaping</code> closures, <code>struct</code>s not being mutable, etc etc etc.</p>
@@ -365,10 +365,10 @@ If you&amp;rsquo;re new to mechanical keyboards, a Planck is a &amp;ldquo;40%&am
     
     <item>
       <title>Lessons learned with Swift &#43; iOS development</title>
-      <link>https://ellie.wtf/lessons-learned-with-swift-ios-development/</link>
+      <link>https://ellie.github.io/lessons-learned-with-swift-ios-development/</link>
       <pubDate>Wed, 29 Jan 2020 14:00:13 +0000</pubDate>
       
-      <guid>https://ellie.wtf/lessons-learned-with-swift-ios-development/</guid>
+      <guid>https://ellie.github.io/lessons-learned-with-swift-ios-development/</guid>
       <description>I&amp;rsquo;ve been writing a lot of Swift and SwiftUI lately, here&amp;rsquo;s what I have learned</description>
       <content:encoded><![CDATA[<p>I&rsquo;d like to start this off by saying that I am <em>in no means an expert</em>. While I have been programming for a long time, I&rsquo;m new to the world of Swift and iOS, and have never built a mobile app :) This is everything I&rsquo;ve stumbled upon and learned while building the first iOS version of <a href="https://pillion.bike">Pillion</a>!</p>
 <blockquote>
@@ -486,10 +486,10 @@ If you&amp;rsquo;re new to mechanical keyboards, a Planck is a &amp;ldquo;40%&am
     
     <item>
       <title>My backup script</title>
-      <link>https://ellie.wtf/my-backup-script/</link>
+      <link>https://ellie.github.io/my-backup-script/</link>
       <pubDate>Wed, 08 Jan 2020 21:09:36 +0000</pubDate>
       
-      <guid>https://ellie.wtf/my-backup-script/</guid>
+      <guid>https://ellie.github.io/my-backup-script/</guid>
       <description>I bought a new external SSD, here&amp;rsquo;s a simple script I&amp;rsquo;m using to backup my laptop to it</description>
       <content:encoded><![CDATA[<p>I recently bought a 1TiB Samsung T5 SSD - pretty damn surprised I can get something of such capacity in something about the same size as a credit card! The last SSD I bought cost about the same but was 120GiB 😂</p>
 <p>Anyway, I wanted to make sure I was properly backup up my laptop. I plan on using it for a lot more than just laptop backups though, and I didn&rsquo;t want to partition the drive to use it with Time Machine</p>
@@ -534,10 +534,10 @@ If you&amp;rsquo;re new to mechanical keyboards, a Planck is a &amp;ldquo;40%&am
     
     <item>
       <title>Geospatial queries with MongoDB</title>
-      <link>https://ellie.wtf/geospacial-queries-with-mongodb/</link>
+      <link>https://ellie.github.io/geospacial-queries-with-mongodb/</link>
       <pubDate>Thu, 25 Jul 2019 19:45:00 +0000</pubDate>
       
-      <guid>https://ellie.wtf/geospacial-queries-with-mongodb/</guid>
+      <guid>https://ellie.github.io/geospacial-queries-with-mongodb/</guid>
       <description>I&amp;rsquo;m currently playing with MongoDB and its geospatial queries. It’s pretty interesting so far, so I just thought I&amp;rsquo;d write something up to show how I&amp;rsquo;m using it with PyMongo!
 Firstly, the obvious pip install pymongo is needed. We will need a mongo client first, which is easy enough
 from pymongo import MongoClient client = MongoClient() It’s pretty neat - by default, MongoClient will connect to mongodb://localhost:27017.
