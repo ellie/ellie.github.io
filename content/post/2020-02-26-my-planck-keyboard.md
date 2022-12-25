@@ -3,13 +3,12 @@ author = "Ellie Huxtable"
 date = 2020-02-26T21:35:56Z
 description = ""
 draft = false
-
-[cover]
-image = "/images/IMG_2914.jpg"
-
 slug = "my-planck-keyboard"
 summary = "I love building keyboards, here's my new Planck"
 title = "I built a new keyboard"
+
+[cover]
+image = "/images/IMG_2914.jpg"
 
 +++
 
