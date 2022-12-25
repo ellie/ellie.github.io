@@ -13,136 +13,6 @@
       
       <guid>https://ellie.github.io/ipod/</guid>
       <description>I modified an old iPod Video with more storage, a new casing, and more battery life. Also some fancy software :)</description>
-      <content:encoded><![CDATA[<blockquote>
-<p>This also ended up getting picked up by <a href="https://www.vice.com/en/article/qjbexd/a-software-engineer-upgraded-an-old-ipod-for-2022">Vice</a>, <a href="https://hackaday.com/2022/02/16/classic-ipods-are-super-upgradeable-in-2022/">Hackaday</a>, <a href="https://www.techspot.com/community/topics/breathing-new-life-into-an-old-ipod-with-a-few-thoughtful-upgrades.273895/">Techspot</a>, as well as a <a href="https://www.xataka.com/musica/este-fantastico-ipod-tuneado-demuestra-que-amor-reproductores-mp3-antano-sigue-muy-vivo">whole</a>  <a href="https://www.macobserver.com/news/engineer-upgraded-ipod-video/">bunch</a> of other <a href="https://blog.adafruit.com/2022/02/16/building-an-ipod-for-2022-apple-aipod-ellie_huxtable/">publications</a>! Thank you so much for your interest in my work &lt;3</p>
-</blockquote>
-<p>I shared this on Twitter recently, and have had a bunch of people ask me for more details - so here they are!</p>
-<p>Just a heads up that this is pretty image-heavy, in case you&rsquo;re on a limited data plan.</p>
-<!-- raw HTML omitted -->
-<p>I&rsquo;ve always been the sort of person who struggles to do <em>anything</em> without some sort of music going on in the background. A long time ago this was with a little mp3 player, then an iPod, and eventually on to a phone with Spotify.</p>
-<p>I realised something not so long ago - I was being very lazy. I&rsquo;d often just play my weekly/daily mix, or some playlist I made up a long time ago. I&rsquo;d never really <strong>think</strong> about what music I liked + what music I wanted to listen to. I think this is in part due to the fact that almost any music was available - which made choosing even more difficult.</p>
-<p>Anyway. Over the weekend I took apart a 5.5th gen iPod Classic (or iPod Video) and made it suit 2022 a little better :D</p>
-<p>I won&rsquo;t be detailing precisely how I did it. I mostly followed <a href="https://www.ifixit.com/Device/iPod_5th_Generation_%28Video%29">iFixit</a>, and fumbled my way through the rest. Almost all of the cables can be removed by lifting a little black lever, and are equally as easy to replace. I&rsquo;d recommend ordering some iPod tools :)</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1472.jpeg"
-         alt="Example connections, can you spot the little lever?"/> <figcaption>
-            <p>Example connections, can you spot the little lever?</p>
-        </figcaption>
-</figure>
-
-<h2 id="the-ipod">The iPod</h2>
-<p>I went with a 5.5 for a few reasons. Firstly, the front is plastic. I was going to be replacing the front anyway, so it might as well be easy to open!</p>
-<p>Secondly, and most importantly - the DAC. This generation of iPod was the last to feature the &ldquo;wolfson DAC&rdquo;, which is very well known for being <a href="https://www.macintoshhowto.com/ipod/which-ipod-has-the-best-audio-quality.html/2">of fantastic quality</a>.</p>
-<p>Something else to be aware of is that different models of this iPod had different amounts of memory. The 80GB has 64mb of memory, while smaller capacities have only 32mb. I went with the 80GB :)</p>
-<h3 id="the-components">The components</h3>
-<p>I ordered a bunch of components for this, as I knew pretty much exactly what I wanted. The vast majority of them were found on eBay, where there is a LOT of choice. If there&rsquo;s anything specific, I&rsquo;ll link it</p>
-<h3 id="opening">Opening</h3>
-<p>Opening the iPod was made fairly simple with the iPod tools. After working my way around the casing, it just popped open. iFixit had good instructions there!</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1467.jpeg"
-         alt="Two halfs of the iPod, perhaps not opened for 16 years?"/> <figcaption>
-            <p>Two halfs of the iPod, perhaps not opened for 16 years?</p>
-        </figcaption>
-</figure>
-
-<h3 id="storage">Storage</h3>
-<p>First and foremost, storage. 80GB is definitely not enough for what I want. The original iPod also used a HDD - ideally I&rsquo;d be swapping this out for something solid state.</p>
-<figure>
-    <img loading="lazy" src="/images/camphoto_1483920592.jpg"
-         alt="The old HDD, look how big it is! It was surrounded in rubber vibration-dampening stuff"/> <figcaption>
-            <p>The old HDD, look how big it is! It was surrounded in rubber vibration-dampening stuff</p>
-        </figcaption>
-</figure>
-
-<p>There&rsquo;s a lot of choice here, but I went with an <a href="https://www.iflash.xyz/store/iflash-quad/">iFlash Quad</a>. This lets you use up to four SD cards! There&rsquo;s no real performance difference here compared to other storage options, as it&rsquo;s pretty limited regardless. In addition, SD cards use less power + put out less heat than the comparable SSDs.</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1483.jpeg"
-         alt="The iFlash, complete with 2x512GB SD cards"/> <figcaption>
-            <p>The iFlash, complete with 2x512GB SD cards</p>
-        </figcaption>
-</figure>
-
-<p>This is also thinner than the HDD, allowing you to fit a larger battery or other mods into the chassis.</p>
-<p>Something to be aware of is that the original iPod firmware can struggle with the larger capacity drives, so you will probably need something like <a href="https://www.rockbox.org/">Rockbox</a>. Bear in mind that Rockbox can have issues with the iFlash hardware, so you may need to run a daily build (or transfer your music <a href="https://www.rockbox.org/wiki/Main/IpodFAQ#How_do_I_start_the_original_Apple_Firmware_63">while booted into the original firmware</a>)</p>
-<h3 id="battery">Battery</h3>
-<p>You can find a LOT of batteries on eBay and other places online, so I won&rsquo;t really say much about that here. I went with a 3000mah :)</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1481.jpeg"
-         alt="The old battery! It&amp;rsquo;s pretty small."/> <figcaption>
-            <p>The old battery! It&rsquo;s pretty small.</p>
-        </figcaption>
-</figure>
-
-<p>The battery is one of the first things you need to unplug, as otherwise you can&rsquo;t fully open the iPod. Attemping to open without unplugging will result in broken cables!</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1465.jpeg"
-         alt="The battery cable, plugged in"/> <figcaption>
-            <p>The battery cable, plugged in</p>
-        </figcaption>
-</figure>
-
-<h3 id="front-casing">Front casing</h3>
-<p>I bought a clear front casing for mine, as I like seeing the guts of my gadgets! Installing this was more fiddly than I expected. Once taken apart, there were six super tiny screws along the edge of the chassis that needed removing. From there, the front comes off - the iPod scroll wheel is actually just resting in place. So if you&rsquo;re not careful, it kinda flops about! As does the display</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1477.jpeg"
-         alt="The front casing, separated from the frame. You can see the tiny screw holes there"/> <figcaption>
-            <p>The front casing, separated from the frame. You can see the tiny screw holes there</p>
-        </figcaption>
-</figure>
-
-<figure>
-    <img loading="lazy" src="/images/IMG_1480.jpeg"
-         alt="Sans front, and sans screen. I was originally going to do some more mods, but then decided to leave the logic board in place. You can also see the teeny screws in the background"/> <figcaption>
-            <p>Sans front, and sans screen. I was originally going to do some more mods, but then decided to leave the logic board in place. You can also see the teeny screws in the background</p>
-        </figcaption>
-</figure>
-
-<h3 id="rear-casing">Rear casing</h3>
-<p>A small detail I wanted to change was the capacity written on the back. After all, it&rsquo;s not 80GB any more. Also found on eBay, I bought a new rear casing</p>
-<figure>
-    <img loading="lazy" src="/images/camphoto_351212254.jpg"
-         alt="Spot the 1TB!"/> <figcaption>
-            <p>Spot the 1TB!</p>
-        </figcaption>
-</figure>
-
-<p>The issue with this is that the headphone jack and hold switch also needed transferring across. This wasn&rsquo;t too difficult in the end, though a little fiddly + I had to be very careful with the cables as they are fragile</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1482.jpeg"
-         alt="The headphone jack and hold switch, in their old back casing"/> <figcaption>
-            <p>The headphone jack and hold switch, in their old back casing</p>
-        </figcaption>
-</figure>
-
-<h3 id="moment-of-truth">Moment of truth</h3>
-<p>After I&rsquo;d put everything back together, I was worried it&rsquo;d not boot. Or that it would boot, but input/sound wouldn&rsquo;t work.</p>
-<p>Switching it on resulted in this screen:</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1487.jpeg"
-         alt="plz restore :("/> <figcaption>
-            <p>plz restore :(</p>
-        </figcaption>
-</figure>
-
-<p>So, I restored it on iTunes, and it worked! I followed up by installing <a href="https://rockbox.org">Rockbox</a>, and then the theme called &ldquo;<a href="https://forums.rockbox.org/index.php?topic=53574.0">FreshOS</a>&rdquo; which gives it a nice clean look (in my opinion). Rockbox has a nice installer which makes this super easy.</p>
-<p>In addition, I no longer need to use iTunes! The iPod mounts as external storage, and the files can just be copied across. Easy.</p>
-<p>Rockbox also means I can <a href="https://twitter.com/ellie_huxtable/status/1493172771790245890?s=20&amp;t=C9L2RYcRdfT7aPmvmQqJmw">play doom</a>, or <a href="https://twitter.com/ellie_huxtable/status/1492989855101509634?s=20&amp;t=C9L2RYcRdfT7aPmvmQqJmw">control my Macbooks volume from the iPod</a> (you know, a very useful thing to do&hellip;)</p>
-<p>Anyway, if you have any questions please do feel free to get in touch <a href="https://twitter.com/ellie_huxtable">on Twitter</a>!</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_1493-1.jpeg"
-         alt="The Rockbox &#43; FreshOS home screen"/> <figcaption>
-            <p>The Rockbox + FreshOS home screen</p>
-        </figcaption>
-</figure>
-
-<figure>
-    <img loading="lazy" src="/images/IMG_1496.jpeg"
-         alt="With some music playing"/> <figcaption>
-            <p>With some music playing</p>
-        </figcaption>
-</figure>
-
-]]></content:encoded>
     </item>
     
     <item>
@@ -154,30 +24,6 @@
       <description>Computers are cold and heartless. They don&amp;rsquo;t lie, and they don&amp;rsquo;t care if you scream and swear at them. You can abuse them all day long, and they&amp;rsquo;ll still efficiently flip bits and push pixels.
 But&amp;hellip; people aren&amp;rsquo;t. Behind every piece of software, there&amp;rsquo;s at least one human. Who has a heart, and who cares what you think. Who has hopes, and dreams, and fears. Who feels.
 This is something I&amp;rsquo;ve been wanting to write in one form or another for quite a while now, and I&amp;rsquo;ve been rewriting this post for a little too long.</description>
-      <content:encoded><![CDATA[<p>Computers are cold and heartless. They don&rsquo;t lie, and they don&rsquo;t care if you scream and swear at them. You can abuse them all day long, and they&rsquo;ll still efficiently flip bits and push pixels.</p>
-<p>But&hellip; people aren&rsquo;t. Behind every piece of software, there&rsquo;s at least one human. Who has a heart, and who cares what you think. Who has hopes, and dreams, and fears. Who feels.</p>
-<p>This is something I&rsquo;ve been wanting to write in one form or another for quite a while now, and I&rsquo;ve been rewriting this post for a little too long.</p>
-<p>Sometimes it seems like we forget about the humans. Either we forget that there&rsquo;s a human behind the software we build, or we forget that we&rsquo;re shipping software <em>for people</em>.</p>
-<p>It seems to me that more and more, especially recently, nobody can share their work or their ideas without someone stepping in and criticising their ideas. Maybe they could have written it in a language that&rsquo;s faster, uses less memory, <em>something about bloat or native code.</em> Maybe it doesn&rsquo;t have a feature that another project does, so why the hell should anyone use it?</p>
-<p>I remember earlier in my career, every time I opened a PR, I&rsquo;d have a small feeling of anxiety. Was it good enough? What if I&rsquo;m bad at programming? Would people hate it? What if I&rsquo;m wrong? Fear of failure is one of the biggest obstacles to success, and all too often it stops people from sharing or achieving what they could. The feeling of &ldquo;this isn&rsquo;t good enough to share&rdquo; goes along with that.</p>
-<p>Even while writing this, I couldn&rsquo;t help but feel like it isn&rsquo;t quite perfect, isn&rsquo;t quite good enough to share. But that&rsquo;s the point of my blog; I want to make myself put things out there, even if they&rsquo;re not 100%.</p>
-<p>We should feel like it&rsquo;s ok to share work that isn&rsquo;t finished, that doesn&rsquo;t use the fastest, cleanest, most optimal approach. If I&rsquo;ve made something for fun and want to share it, why not? If it doesn&rsquo;t use the technology you prefer, and you haven&rsquo;t paid me to build it, why would you shit all over someone else&rsquo;s work?</p>
-<p>Better yet. If you care that much, make your own. Instead of pulling down something of someone else&rsquo;s&rsquo;, build your own thing up.</p>
-<p>To some degree I understand people not being satisfied with professional software, that they have paid for, and that doesn&rsquo;t meet their expectations. But if it&rsquo;s open source, free, and available for all? Why would you ever complain about that? If it&rsquo;s not for you, just&hellip; move on.</p>
-<p>Friends of mine won&rsquo;t share their blog posts to HN, Reddit, etc, because they feel like their words aren&rsquo;t good enough. Or like people there are going to tear them apart. Or because they might have made a small mistake somewhere.</p>
-<p>The main thing I can see fuelling so many arguments is an inherent <em>need</em> to be right. It&rsquo;s been written about so many times before, but for some reason people can&rsquo;t bear the idea that <strong><a href="https://xkcd.com/386/">someone on the internet is wrong</a></strong>.</p>
-<p>Except, when it comes to the preferences of which tools or technology someone wants to build something with, in their own time, can you really be wrong?</p>
-<p>There&rsquo;s a stereotype held about people in tech, that we&rsquo;re all that super nerdy person who struggles socially, can&rsquo;t talk to people, and hide all day in the basement programming. And that somehow, this is excusable if you&rsquo;re <em>really good</em> at writing code. But is it? If you&rsquo;re writing code for people to use, and you&rsquo;re working on it with people, not having people skills isn&rsquo;t really an option. Much like technical skills, it isn&rsquo;t an innate quality - you can work on improving your people skills, much like you can your tech skills.</p>
-<p>If you take anything at all from my post, hopefully it&rsquo;s this; if you really must say something, and you really feel like someone made the wrong choice, maybe think about your phrasing. Eg</p>
-<blockquote>
-<p>Hey! Nice work. I was curious though, why&rsquo;d you pick <!-- raw HTML omitted --> over <!-- raw HTML omitted -->?</p>
-</blockquote>
-<p>vs</p>
-<blockquote>
-<p>Ugh, this would be so much better if it just used <!-- raw HTML omitted -->. I hate the way modern tech is going</p>
-</blockquote>
-<p>Let&rsquo;s make our industry a much more friendly and welcoming place 💖</p>
-]]></content:encoded>
     </item>
     
     <item>
@@ -187,22 +33,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
       
       <guid>https://ellie.github.io/ive-started-a-personal-wiki/</guid>
       <description>There&amp;rsquo;s not much there at the moment, but it&amp;rsquo;s something I&amp;rsquo;ve been meaning to do for a while.</description>
-      <content:encoded><![CDATA[<blockquote>
-<p>So it turns out this didn&rsquo;t work for me.I&rsquo;ll probably be writing something later on, when I figure out why!</p>
-</blockquote>
-<p>You can find it <a href="https://ellie.wiki">here!</a></p>
-<p>I have lots of projects, some are work, some are for fun, and in all of them I spend a lot of time learning new things</p>
-<p>Frustratingly, I can&rsquo;t remember them all :(</p>
-<p>I&rsquo;ve read a lot about the value of keeping an engineering notebook/journal, and it&rsquo;s all something I agree with! I&rsquo;ve attempted this in the past, but never really got anywhere with it.</p>
-<p>I&rsquo;ve tried keeping a <code>notes.txt</code> file, but eventually I find organisation becomes a bit of a hassle. Plus I like nice shiny things with emojis and images, my text editor isn&rsquo;t great for those ✨</p>
-<p>I&rsquo;ve tried paper notebooks - much as they appeal to me, I&rsquo;m a disaster with them. I lose them, forget them, spend <em>ages</em> finding the perfect pen and paper combo, and then in the end I end up sad because my handwriting is comparable to the death spasms of a spider after falling in an inkwell.</p>
-<p>I love looking at the fancy bullet journals some people have, but I have neither the neatness nor the patience to do something like that for myself. Plus I can hardly paste a code snippet onto paper</p>
-<p>Really, I want 1) markdown and 2) a nice way of rendering my markdown</p>
-<p>So, I&rsquo;ve setup a little personal wiki! I&rsquo;m keeping it separate from my blog because I&rsquo;d rather have somewhere I feel ok to dump random shitty code snippets without caring too much. Maybe eventually things from there will make their way over here</p>
-<p>It&rsquo;s running on my <code>lab</code> (something I&rsquo;ll explain another time), and is basically just a hugo static site. You can find the git repo here - <a href="https://github.com/elliebike/wiki">https://github.com/elliebike/wiki</a></p>
-<p>I&rsquo;ll see how it goes, because generally for writing I prefer to have a web UI that I can access from <em>any</em> device, really easily. But I suspect I&rsquo;ll mostly be wanting to write to this when I&rsquo;m at a computer anyway. Plus, I&rsquo;ve been playing with some mobile SSH clients that are&hellip; surprisingly nice 🤔</p>
-<p>Let me know if you have any questions!</p>
-]]></content:encoded>
     </item>
     
     <item>
@@ -212,56 +42,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
       
       <guid>https://ellie.github.io/my-tools-are-pretty-rusty/</guid>
       <description>Command line tools, rewritten in Rust</description>
-      <content:encoded><![CDATA[<p>Recently I&rsquo;ve been taking a look at replacements for common command line tools (and coreutils) - <code>ls</code>, <code>cat</code>, <code>find</code>, <code>grep</code>, etc. I don&rsquo;t really have many issues with the older tools, but I like shiny things. Turns out, people have been rewriting a lot of them in Rust</p>
-<h2 id="lsd">lsd</h2>
-<p><a href="https://github.com/Peltoche/lsd">lsd</a> is a replacement for <code>ls</code>. It adds some nice colours and icons to your output, like:</p>
-<figure>
-    <img loading="lazy" src="/images/2020/03/Screenshot-2020-03-29-at-00.36.11.png"/> 
-</figure>
-
-<h2 id="exa">exa</h2>
-<p><a href="https://the.exa.website/">exa</a> is also an <code>ls</code> replacement! It&rsquo;s fairly similar from what I can see, though it doesn&rsquo;t do the fancy font icons. However, it does display some info from Git, and has some other features. Both are worth looking at imo.</p>
-<figure>
-    <img loading="lazy" src="/images/2020/03/Screenshot-2020-03-29-at-00.42.18.png"/> 
-</figure>
-
-<blockquote>
-<p><a href="https://old.reddit.com/user/milliams">u/milliams</a> and <a href="https://twitter.com/hoop33">@hoop33</a> have pointed out that exa will do icons with the <code>--icons</code> flag!</p>
-</blockquote>
-<h2 id="bat">bat</h2>
-<p><a href="https://github.com/sharkdp/bat">bat</a> is like <code>cat</code>, but with colours, line numbers, and a few other things. It has syntax highlighting, shows git changes, and also automatically pages with <code>less</code> (which I love).</p>
-<figure>
-    <img loading="lazy" src="/images/2020/03/Screenshot-2020-03-29-at-00.48.46.png"/> 
-</figure>
-
-<p>Sure, <code>cat</code> is intended to con<em>cat</em>enate files, but it&rsquo;s also really commonly used to just dump a file to your terminal. <code>bat</code> does that, and makes it pretty :D (it can concat too)</p>
-<h2 id="ripgrep">ripgrep</h2>
-<p><a href="https://github.com/BurntSushi/ripgrep">ripgrep</a> is one of the first I installed! It searches code really, really nicely. <code>.gitignore</code> is followed by default, it recurses files and directories by default, and it&rsquo;s <strong>very</strong> fast. I think the output looks pretty nice too!</p>
-<figure>
-    <img loading="lazy" src="/images/2020/03/Screenshot-2020-03-29-at-00.51.26.png"
-         alt="there was also only one todo"/> <figcaption>
-            <p>there was also only one todo</p>
-        </figcaption>
-</figure>
-
-<p>There are a few alternatives here, but this is the only one I&rsquo;ve used</p>
-<h2 id="fd">fd</h2>
-<p><a href="https://github.com/sharkdp/fd">fd</a> is like find, but in my opinion more convenient. <code>fd .py</code> is fast to type, and <code>fd</code> is also very fast to run. By default <code>.gitignore</code> is followed – a trend I&rsquo;m very much liking. Regex is supported, and the output has colour!</p>
-<figure>
-    <img loading="lazy" src="/images/2020/03/Screenshot-2020-03-29-at-00.56.47.png"/> 
-</figure>
-
-<h2 id="dust">dust</h2>
-<p><a href="https://github.com/bootandy/dust">dust</a> is a tool I only found very recently, but it tries to make <code>du</code> nice. By default I don&rsquo;t find the output of <code>du</code> to be very helpful, and it&rsquo;s usually combined with at least <code>-h</code>, and maybe some <code>sort</code> as well.</p>
-<figure>
-    <img loading="lazy" src="/images/2020/03/Screenshot-2020-03-29-at-02.00.34.png"/> 
-</figure>
-
-<p><code>dust</code> will automatically sort, create graphs, and generally answer the &ldquo;how the hell am I out of disk space already&rdquo; question. For when the answer isn&rsquo;t docker images, anyway.</p>
-<h2 id="coreutils">coreutils</h2>
-<p>Not something I&rsquo;m using, but there&rsquo;s an attempt to rewrite all of coreutils in Rust going on <a href="https://github.com/uutils/coreutils">over here</a>. It&rsquo;s pretty cool and worth a look</p>
-<p>That&rsquo;s pretty much it for now! If you have any other suggestions, feel free to contact me on <a href="https://twitter.com/elliebike">Twitter</a>, or via <a href="mailto:e@elm.sh">email</a></p>
-]]></content:encoded>
     </item>
     
     <item>
@@ -271,50 +51,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
       
       <guid>https://ellie.github.io/my-planck-keyboard/</guid>
       <description>I love building keyboards, here&amp;rsquo;s my new Planck</description>
-      <content:encoded><![CDATA[<p>Today the final components arrived for my keyboard build! I&rsquo;ve been waiting on these for quite a long time, as some were custom made + all came from abroad. This isn&rsquo;t actually my first Planck build - the first was lost to a spilled energy drink.</p>
-<p>If you&rsquo;re new to mechanical keyboards, a Planck is a &ldquo;40%&rdquo; keyboard. It is very small, with only 48 keys. The lack of keys is made up for by having extra layers! For example, the &ldquo;q&rdquo; key can function as a &ldquo;q&rdquo;, a &ldquo;Q&rdquo;, a &ldquo;!&rdquo; and a &ldquo;1&rdquo;. That&rsquo;s shift+q, lower+q, and raise+q.</p>
-<p>It was originally designed by <a href="https://jackhumbert.com/">Jack Humbert</a>, and you can buy components from <a href="https://olkb.com/">OLKB</a> (many places stock components though). If the Planck is too small for you, there&rsquo;s a Preonic as well - it&rsquo;s a little larger. Other than the size, the other selling point is that all the keys are arranged in a grid. I guess this is either something you love, or something that you hate. I actually tried an <a href="https://ergodox-ez.com/">ErgoDox</a> for a while, but I think that the Ortholinear layout is something that I prefer.</p>
-<p>It runs the <a href="https://docs.qmk.fm/#/">QMK</a> firmware, and is totally reflashable. So, if you want a different layout, or some other functionality that doesn&rsquo;t yet exist, it&rsquo;s easy. So long as you can write C, anyway</p>
-<figure>
-    <img loading="lazy" src="/images/55303A6F-2304-4C0E-BE50-6C689E2DBD17.JPG"
-         alt="Some pictures here will be relevant to the writing, some will just be photos I like"/> <figcaption>
-            <p>Some pictures here will be relevant to the writing, some will just be photos I like</p>
-        </figcaption>
-</figure>
-
-<p>The first thing I had arrive was the PCB. I ordered it from <a href="http://www.ukkeycaps.co.uk/">UK Keycaps</a>, as it was in stock and had fast shipping!</p>
-<p>After that was the case/box. That came from <a href="https://datamancer.com/product/datamancer-magnetic-clamshell-planck-hardwood-keyboard-case-rev-6/">Datamancer</a>, and is made of Walnut. I went for the taller case, as I like SA-profile keycaps. It took a little while to arrive, but I&rsquo;m very very happy with the quality. The bottom and top are lined with magnets on the inner edges, so the lid &ldquo;snaps&rdquo; into place! It also dual functions as a wrist rest, thanks to some more magnets.</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_2913.HEIC.jpg"
-         alt="The case, closed. Note the magnets on the lower edge"/> <figcaption>
-            <p>The case, closed. Note the magnets on the lower edge</p>
-        </figcaption>
-</figure>
-
-<p>Otherwise, I went for <a href="https://drop.com/buy/massdrop-halo-switch-pack">Halo True</a> switches. This was a bit of a gamble, as I&rsquo;ve never used Topre switches (supposedly similar) and I normally go for either MX Clears, Zealio, or something similar. I love them!</p>
-<p>I was very tempted to order something nice and clicky, but seeing as I&rsquo;m planning on carrying this board around with me (hence the size), I didn&rsquo;t think people in coffee shops would appreciate the clicky-clacky as much as I do.</p>
-<p>The cool thing with the latest Planck PCB, is that the switches are hot swappable. Maybe sometime in the future I&rsquo;ll want to try something new, and that&rsquo;s totally doable and wouldn&rsquo;t even take very long.</p>
-<p>I also needed a top plate. Originally I was going to order from OLKB, but there&rsquo;s a pretty large waiting list/delay over there. I was also considering getting one made from something other than steel.</p>
-<p>I ended up ordering from <a href="https://www.laserboost.com/">Laserboost</a>, and went for a shiny brass plate. I was pretty torn between brass and copper, but definitely don&rsquo;t regret my decision</p>
-<figure>
-    <img loading="lazy" src="/images/C6F087C1-D194-48C4-A855-689903ECE2EA.JPG"
-         alt="Top plate, with switches in place"/> <figcaption>
-            <p>Top plate, with switches in place</p>
-        </figcaption>
-</figure>
-
-<p>Finally&hellip; the keycaps! I&rsquo;ve ordered from <a href="https://pimpmykeyboard.com/">Pimp My Keyboard</a> before and been very happy, so I thought I&rsquo;d do so again. I ended up going for <a href="https://pimpmykeyboard.com/sa-1976-keyset/">SA 1976</a>, and I&rsquo;m very happy with my choice. The keys feel solid, I like the colours, and I think it matches the walnut finish of the case pretty well too.</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_2914-1.jpg"/> 
-</figure>
-
-<p>I actually use this on top of my laptop keyboard, with the internal keyboard disabled. That way I&rsquo;m not tethered to a desk, but I still get a nice keyboard :D</p>
-<figure>
-    <img loading="lazy" src="/images/IMG_2924.jpg"/> 
-</figure>
-
-<p>If you have any questions for me, or just want to say hi, I&rsquo;m <a href="https://twitter.com/ellie_huxtable">@ellie_huxtable</a> on Twitter! Otherwise, &ldquo;ellie at elliehuxtable DOT COM&rdquo;</p>
-]]></content:encoded>
     </item>
     
     <item>
@@ -324,42 +60,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
       
       <guid>https://ellie.github.io/rest-apis-and-swiftui/</guid>
       <description>Just answering a question from someone. SwiftUI has a neat pattern for handling async data responses</description>
-      <content:encoded><![CDATA[<p>I recently had someone ask me how I handled fetching and rendering data from a REST API in a SwiftUI view.</p>
-<p>If you&rsquo;re coming from something like React, it&rsquo;s actually handled differently. We can&rsquo;t just fire off a request in <code>init</code> or <code>onAppear</code>, and update some <code>@State</code>. Awkwardness with <code>escaping</code> closures, <code>struct</code>s not being mutable, etc etc etc.</p>
-<p>Luckily SwiftUI has some constructs that can help :) I won&rsquo;t be going over how to make GET requests or whatever in detail, though I like to use <a href="https://github.com/dduan/Just">Just</a>.</p>
-<p>Firsts up, let&rsquo;s have a view</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">UserProfile</span><span class="p">:</span> <span class="n">View</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="p">@</span><span class="n">ObservedObject</span> <span class="n">user</span><span class="p">:</span> <span class="n">User</span> <span class="p">=</span> <span class="n">User</span><span class="p">(</span><span class="n">username</span><span class="p">:</span> <span class="s">&#34;elm&#34;</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="s">&#34;Ellie&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    	<span class="n">VStack</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        	<span class="n">Text</span><span class="p">(</span><span class="s">&#34;Username: </span><span class="si">\(</span><span class="kc">self</span><span class="p">.</span><span class="n">user</span><span class="p">.</span><span class="n">username</span><span class="si">)</span><span class="s">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        	<span class="n">Text</span><span class="p">(</span><span class="s">&#34;Name: </span><span class="si">\(</span><span class="kc">self</span><span class="p">.</span><span class="n">user</span><span class="p">.</span><span class="n">name</span><span class="si">)</span><span class="s">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>So, how do we get the <code>user</code> object here loaded? <code>@State</code>?</p>
-<p>Actually no. There&rsquo;s something called an <a href="https://developer.apple.com/documentation/combine/observableobject">ObservableObject</a>. This is an object with <code>@Published</code> properties. If a <code>@Published</code> property is updated, any view containing this object will have an update triggered.</p>
-<p>An example will probably illustrate this more effectively</p>
-<pre tabindex="0"><code>struct User: ObservableObject {
-    @Published var username: String
-    @Published var name: String
-
-    init(username: String, name: String) {
-    	self.username = username
-        self.name = name
-        
-        self.load()
-    }
-    
-    func load() {
-    	somehowRequestDataAsynchronously();
-        // so basically just change `username` or `name` in here
-    }
-}
-</code></pre><p>The view essentially &ldquo;observes&rdquo; something &ldquo;observable&rdquo; - <code>@ObservedObject</code> and <code>@ObservableObject</code>. As soon as a <code>@Published</code> property is updated on something we are observing, a re-render is triggered and the view updates!</p>
-<p>Hopefully this clears things up!</p>
-]]></content:encoded>
     </item>
     
     <item>
@@ -369,118 +69,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
       
       <guid>https://ellie.github.io/lessons-learned-with-swift-ios-development/</guid>
       <description>I&amp;rsquo;ve been writing a lot of Swift and SwiftUI lately, here&amp;rsquo;s what I have learned</description>
-      <content:encoded><![CDATA[<p>I&rsquo;d like to start this off by saying that I am <em>in no means an expert</em>. While I have been programming for a long time, I&rsquo;m new to the world of Swift and iOS, and have never built a mobile app :) This is everything I&rsquo;ve stumbled upon and learned while building the first iOS version of <a href="https://pillion.bike">Pillion</a>!</p>
-<blockquote>
-<p>Pillion is an app to aid in finding motorcycle parking - I&rsquo;ve got maybe 10,000 parking locations listed all over the world, some sourced from OpenStreetMaps, some from online datasets, and the rest from usersOther than parking, it also provides ride tracking</p>
-</blockquote>
-<p>A lot of it was found while I was still figuring things out, so in a bunch of cases I wasn&rsquo;t doing things in the &ldquo;correct&rdquo; way. Where I&rsquo;ve learned better, I&rsquo;ve included both approaches.</p>
-<p>I might write posts going into more detail on each section (MapBox especially) in the future, if this is well received.</p>
-<p>Please let me know if you notice any mistakes 😊</p>
-<h2 id="swiftui">SwiftUI</h2>
-<p>I went straight in for using SwiftUI, the new UI system that Apple released with iOS 13. The caveat here is that only devices running iOS &gt;= 13 are supported - though this is everything since the iPhone 6S.</p>
-<p>Seeing as I&rsquo;ve been using React for years, SwiftUI feels very nice. While it has differences, components/children/state in ways that feel natural. I actually prefer the state binding to how React handles state, and find that the code feels a decent bit cleaner.</p>
-<p>I never tried UIKit so I don&rsquo;t really have much to compare to, but from what I have seen of SwiftUI, it is much cleaner.</p>
-<p>I have had a few issues with SwiftUI that seem to mostly be related to its immaturity - I cover this below.</p>
-<p>Annoyingly most of the nice UI components I could find on GitHub were only for UIKit. Maybe I&rsquo;ll try to wrap them at some point, but the ecosystem for SwiftUI seems a little sparse - reflecting its immaturity very well. Something to bear in mind.</p>
-<h2 id="debugging">Debugging</h2>
-<p>The XCode debugger was a nice surprise! While I&rsquo;m used to <code>ipdb</code> sessions with Python, I didn&rsquo;t expect anything as flexible considering the code was running on my phone + compiled.</p>
-<p>I found the debugger could happily inspect values, evaluate Swift expressions, everything I wanted! Tab completion worked really nicely too. Yay for tooling :)</p>
-<p>It can occasionally be a little slow, but I suppose that&rsquo;s to be expected.</p>
-<h2 id="ui-thread-stuff">UI thread stuff</h2>
-<p>A lot of my application is essentially making a request to my API, then rendering the result. I found that attempting to update the UI from a background thread (such as the async handler for a HTTP response) would result in an error. Instead, this pattern should be used:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">DispatchQueue</span><span class="p">.</span><span class="n">main</span><span class="p">.</span><span class="n">async</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// do ui</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>This makes it super easy to avoid blocking the UI thread 😁</p>
-<p>This was actually something I read very early into using Swift. I&rsquo;ve since learned that <code>ObservableObjects</code> with some <code>Published</code> properties are more the way to go for fetching and updating stuff, where you can! I&rsquo;ve left it here just in case it&rsquo;s needed though. I&rsquo;m still not that happy with how HTTP requests are handled in my project so it&rsquo;s probably something I am going to revisit in the future.</p>
-<h2 id="keyboard-hiding">Keyboard hiding</h2>
-<p>Just a small thing, but I wanted to be able to hide the keyboard on certain interactions. For instance, when a search bar is focused and you touch an item in the list, hide the keyboard.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">extension</span> <span class="nc">UIApplication</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">hideKeyboard</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">hideKeyboard</span><span class="p">()</span>
-</span></span></code></pre></div><h2 id="just">Just</h2>
-<p>Making HTTP requests in Swift isn&rsquo;t too bad, but I&rsquo;m used to <code>requests</code> in Python - so I looked for something similar.</p>
-<p><a href="https://github.com/dduan/Just">Just</a> seemed to fit that bill! It&rsquo;s nice, small, fast, and let&rsquo;s you write things like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="n">Just</span><span class="p">.</span><span class="kr">get</span><span class="p">(</span><span class="s">&#34;https://example.com&#34;</span><span class="p">)</span> <span class="p">{</span> <span class="n">r</span> <span class="k">in</span>
-</span></span><span class="line"><span class="cl">	<span class="bp">print</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">text</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>&hellip;which is super nice!</p>
-<p>It also lets you setup a session that has headers pre-set, which is useful for authorised HTTP requests</p>
-<h2 id="mapbox">Mapbox</h2>
-<p>I&rsquo;ve been working with the <a href="https://docs.mapbox.com/ios/api/maps/5.4.0/">MapBox Maps SDK for iOS</a> for a large part of this project. Mapbox was a joy to work with in JavaScript, but frankly the iOS side is a little lacking. It can be awkward to customise things,  and the documentation isn&rsquo;t the best. I often found multiple ways to do something, with little explanation as to why. Seems like Android might be a bit better here though!</p>
-<p>I&rsquo;m not saying it&rsquo;s <em>bad</em>, just that it feels a tad unfinished or underdeveloped in comparison to the JS solution - and from what I&rsquo;ve seen of the Android version, compared to that too. I&rsquo;ll do a comparison once I&rsquo;ve built the Android app.</p>
-<p>Something else here is that some of the docs are more for UIKit - makes sense as SwiftUI is so new! Just something to bear in mind. There are some docs that show you how to wrap your map for SwiftUI though</p>
-<h2 id="swift-typechecking">Swift Typechecking</h2>
-<p>Coming from Rust, the Swift typechecker feels a little&hellip; lacking. Occasionally it flat out fails to infer a seemingly obvious type, or takes too long and asks the developer to break the code down a bit. Not really a huge problem, but it is a bit annoying. Apparently this is constantly improving though!</p>
-<p>In some cases it will highlight an error in one location, when there are no issues there. Deleting the code will show the actual underlying issue. I think this is more to do with the SwiftUI DSL. When there is a type error within the DSL, if it can&rsquo;t infer the type then it just kinda falls apart. I can&rsquo;t find a good example right now, but will update this when I do.</p>
-<p>After updating to Catalina and the latest XCode, I had a bunch of weird &ldquo;ambiguous member&rdquo; errors that never existed before the upgrade. Swift seems to have a tendency to give misleading error messages, which is&hellip; strange. I&rsquo;ve never used another modern language that does the same thing, especially not one backed by such a large company.</p>
-<p>I found I eventually got better at writing code that Swift could understand, even though what I was writing before was, as far as I know, semantically correct.</p>
-<h2 id="swiftformat">SwiftFormat</h2>
-<p>I&rsquo;m used to having formatters with other projects, so I looked for one here too. <a href="https://github.com/nicklockwood/SwiftFormat">SwiftFormat</a> seems to work nicely</p>
-<h2 id="swiftui-dsl-issues">SwiftUI DSL issues</h2>
-<p>So with SwiftUI <code>View</code> bodies are declared with a little DSL-type-thing</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	<span class="n">ComponentOne</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    	<span class="n">AnotherOne</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        	<span class="c1">// so much nesting :O</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>&hellip;which is all well and good.</p>
-<p>However, when you want to get into conditional rendering, the DSL doesn&rsquo;t seem quite there yet.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="k">if</span> <span class="n">thing</span><span class="p">.</span><span class="n">ouch</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">   <span class="n">RenderMe</span><span class="p">(</span><span class="n">thing</span><span class="p">.</span><span class="n">ouch</span><span class="p">.</span><span class="n">thing</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>However, things such as <code>if let</code>, at time of writing, do not work</p>
-<pre tabindex="0"><code>if let o = thing.ouch {
-	RenderMe(o.thing)
-}
-</code></pre><p>Not essential, but would be nice!</p>
-<p>There are a few other small issues here and there with the DSL that still need sorting, but SwiftUI is very new/beta so I&rsquo;m not surprised there. Other than the issues, it is a joy to work with. When it works, it works really nicely! It&rsquo;s just when it doesn&rsquo;t ;)</p>
-<h2 id="auth0">Auth0</h2>
-<p>I&rsquo;m currently using Auth0 lock, with Google + Apple oauth login. I&rsquo;m actually using my own solution now instead, but I&rsquo;ve left this here as it&rsquo;s still relevant.</p>
-<p>The Apple one is actually really cool! Users can choose to have an Apple forwarding address to hide their email, and login with FaceID.</p>
-<p>Lock wasn&rsquo;t setup for SwiftUI, but it&rsquo;s pretty easy to wrap:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Auth0Lock</span><span class="p">:</span> <span class="n">UIViewControllerRepresentable</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">typealias</span> <span class="n">UIViewControllerType</span> <span class="p">=</span> <span class="n">LockViewController</span>
-</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">lock</span><span class="p">:</span> <span class="n">Lock</span> <span class="p">=</span> <span class="n">Lock</span><span class="p">.</span><span class="n">passwordless</span><span class="p">().</span><span class="n">withOptions</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nv">$0</span><span class="p">.</span><span class="n">passwordlessMethod</span> <span class="p">=</span> <span class="p">.</span><span class="n">magicLink</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="n">onAuth</span> <span class="p">{</span> <span class="n">credentials</span> <span class="k">in</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">print</span><span class="p">(</span><span class="n">credentials</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// save access token and use it to do stuff :)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="n">onError</span><span class="p">{</span> <span class="n">error</span> <span class="k">in</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// you should probably do something other than just print errors</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">makeUIViewController</span><span class="p">(</span><span class="n">context</span><span class="p">:</span> <span class="n">UIViewControllerRepresentableContext</span><span class="p">&lt;</span><span class="n">Auth0Lock</span><span class="p">&gt;)</span> <span class="p">-&gt;</span> <span class="n">LockViewController</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">lock</span><span class="p">.</span><span class="n">controller</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">updateUIViewController</span><span class="p">(</span><span class="kc">_</span> <span class="n">uiViewController</span><span class="p">:</span> <span class="n">LockViewController</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="n">UIViewControllerRepresentableContext</span><span class="p">&lt;</span><span class="n">Auth0Lock</span><span class="p">&gt;)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// there isn&#39;t really much updating I need to do atm</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>Auth0 comes with a credential manager that handles refresh tokens, requesting new access tokens, saving and validating tokens, etc. So you don&rsquo;t really need to put a lot of work in to keep your users logged in!</p>
-<blockquote>
-<p>just to elaborate slightly on why I dropped Auth0I wanted more flexibility with how auth was handled, and I ended up rewriting my backend as a Django app - so it was pretty easy for me to just integrate with what Django already has.I switched to Django so I could build the product faster, and not spend time thinking about fun architecture things</p>
-</blockquote>
-<h2 id="apple-developer">Apple developer</h2>
-<p>Signing up for an Apple Developer account for my company (Pillion Software Ltd) took maybe a week or two - filling in the online forms was fast, but it took a little while to get approved + they had to call me. All good after that though!</p>
-<p>I tried to use Fastlane to take screenshots, but found that the simulators/tests didn&rsquo;t work very well (mapbox crashing in UI tests) so the only workable way was for me to just take a few manually. Not great, and I&rsquo;d like to sort that. I&rsquo;ll get around to it eventually. It also doesn&rsquo;t help that my laptop is super slow + a bit old (mostly lacking in RAM), so the simulator is really crappy.</p>
-<p>I was told after my first app store submission that my app didn&rsquo;t have enough functionality. Ouch. After some research, it seems like anything that <em>could</em> be a web app, Apple aren&rsquo;t that keen on approving. So instead I just brought some things forward in my roadmap.</p>
-<p>I actually had a version of my app go through the entire review process (from me pressing &ldquo;submit&rdquo; to it being live) in about 7 minutes, which I was very impressed with.</p>
-<h2 id="conclusions">Conclusions</h2>
-<p>In hindsight I think I&rsquo;d probably research other solutions before diving in to using the same tech as I did for my old web version. Maybe MapKit would have done the job just fine and I wouldn&rsquo;t have used MapBox.</p>
-<p>I did learn a lot in this process though, so I don&rsquo;t think I&rsquo;d change too much. I&rsquo;ll be starting on building the same thing for Android soon (and I don&rsquo;t really know any Android dev yet either ;P) so we will see how that goes! Expect a post similar to this one.</p>
-<p>Anyway, <a href="https://pillion.bike/ios">Pillion is now in the App Store!</a></p>
-<p>If you bike, and decide to give it a go, I&rsquo;d love to know what you think - so please don&rsquo;t hesitate to get in touch!</p>
-]]></content:encoded>
     </item>
     
     <item>
@@ -490,45 +78,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
       
       <guid>https://ellie.github.io/my-backup-script/</guid>
       <description>I bought a new external SSD, here&amp;rsquo;s a simple script I&amp;rsquo;m using to backup my laptop to it</description>
-      <content:encoded><![CDATA[<p>I recently bought a 1TiB Samsung T5 SSD - pretty damn surprised I can get something of such capacity in something about the same size as a credit card! The last SSD I bought cost about the same but was 120GiB 😂</p>
-<p>Anyway, I wanted to make sure I was properly backup up my laptop. I plan on using it for a lot more than just laptop backups though, and I didn&rsquo;t want to partition the drive to use it with Time Machine</p>
-<p>Soooo instead, I&rsquo;m creating <code>.tar.gz</code> archives :) Simple and easy.</p>
-<p>I&rsquo;ll be updating this page as I update the script, but I&rsquo;m basically <code>tar</code>ing up my entire home directory with some exclusions. Note that these exclusions are <em>Mac OS specific</em>, so if you&rsquo;re using Linux you&rsquo;re probably going to want to have different settings</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">BACKUP</span><span class="o">=</span>backup-macbook-<span class="k">$(</span>date +%FT%H:%M:%S<span class="k">)</span>.tar.gz
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">tar -cvpzf <span class="nv">$BACKUP</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span><span class="nv">$BACKUP</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.cache <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.debug <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.local/lib <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.local/share/virtualenvs <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.recently-used <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.thumbnails <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.pyenv <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.Trash <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.npm <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.poetry <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.kube <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.fastlane <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.mix <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.pyenv <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.gem <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.vscode <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>.cocoapods <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>Downloads <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>Library <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>Movies <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>Music <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>nltk_data <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>Pictures <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>pkg <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	--exclude<span class="o">=</span>Applications <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>	.
-</span></span></code></pre></div><p>I&rsquo;m actually backing up my iCloud photos to this drive as well, using <a href="https://github.com/ndbroadbent/icloud_photos_downloader">this script</a>. It&rsquo;s really good! Doesn&rsquo;t seem to be maintained any more, but does the job perfectly.</p>
-<p>It&rsquo;s probably a good idea to encrypt anything sensitive, which backups and photos probably are.</p>
-<p>GPG is pretty useful for this:</p>
-<pre tabindex="0"><code>gpg --symmetric --cipher-algo AES256 $BACKUP
-</code></pre>]]></content:encoded>
     </item>
     
     <item>
@@ -541,41 +90,6 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
 Firstly, the obvious pip install pymongo is needed. We will need a mongo client first, which is easy enough
 from pymongo import MongoClient client = MongoClient() It’s pretty neat - by default, MongoClient will connect to mongodb://localhost:27017.
 You might want to do something like this instead though</description>
-      <content:encoded><![CDATA[<p>I&rsquo;m currently playing with MongoDB and its <a href="https://docs.mongodb.com/manual/geospatial-queries/">geospatial queries</a>. It’s pretty interesting so far, so I just thought I&rsquo;d write something up to show how I&rsquo;m using it with PyMongo!</p>
-<p>Firstly, the obvious <code>pip install pymongo</code> is needed. We will need a mongo client first, which is easy enough</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pymongo</span> <span class="kn">import</span> <span class="n">MongoClient</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">()</span>
-</span></span></code></pre></div><p>It’s pretty neat - by default, MongoClient will connect to <code>mongodb://localhost:27017</code>.</p>
-<p>You might want to do something like this instead though</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">url</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&#34;MONGO_URL&#34;</span><span class="p">,</span> <span class="s2">&#34;mongodb://localhost:27017&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-</span></span></code></pre></div><p>We&rsquo;re going to want to create a MongoDB index on a document field to allow the geospatial magic to work. We will be creating a <a href="https://docs.mongodb.com/manual/core/2dsphere/"><code>2dsphere</code></a> index.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pymongo</span> <span class="kn">import</span> <span class="n">MongoClient</span><span class="p">,</span> <span class="n">GEOSPHERE</span><span class="p">,</span> <span class="n">DESCENDING</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="n">db</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">foo</span>
-</span></span><span class="line"><span class="cl"><span class="n">db</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">create_index</span><span class="p">([(</span><span class="s2">&#34;location&#34;</span><span class="p">,</span> <span class="n">GEOSPHERE</span><span class="p">)])</span>
-</span></span></code></pre></div><p>Now all that is needed is to insert a document and run a query :) We&rsquo;ll insert a document that just has a <code>location</code> field</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">db</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">insert_one</span><span class="p">({</span>
-</span></span><span class="line"><span class="cl">	<span class="err">“</span><span class="n">location</span><span class="err">”</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="s2">&#34;coordinates&#34;</span> <span class="p">:</span> <span class="p">[</span> 
-</span></span><span class="line"><span class="cl">			<span class="mf">51.4982563</span><span class="p">,</span> 
-</span></span><span class="line"><span class="cl">			<span class="o">-</span><span class="mf">0.0861183</span>
-</span></span><span class="line"><span class="cl">    		<span class="p">],</span>
-</span></span><span class="line"><span class="cl">    		<span class="s2">&#34;type&#34;</span> <span class="p">:</span> <span class="s2">&#34;Point&#34;</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">})</span>
-</span></span></code></pre></div><p>The <code>location</code> field needs to be <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a>, which is a JSON standard for representing geographic features. It makes querying for documents super easy!</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">db</span><span class="o">.</span><span class="n">bar</span><span class="o">.</span><span class="n">find</span><span class="p">({</span>
-</span></span><span class="line"><span class="cl">	<span class="s2">&#34;location&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">		<span class="s2">&#34;$near&#34;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">			<span class="s2">&#34;$geometry&#34;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Point&#34;</span><span class="p">,</span> <span class="s2">&#34;coordinates&#34;</span><span class="p">:</span> <span class="p">[</span><span class="n">LAT</span><span class="p">,</span> <span class="n">LONG</span><span class="p">]},</span>
-</span></span><span class="line"><span class="cl">			<span class="s2">&#34;$maxDistance&#34;</span><span class="p">:</span> <span class="nb">range</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">		<span class="p">}</span>
-</span></span><span class="line"><span class="cl">	<span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">})</span>
-</span></span></code></pre></div>]]></content:encoded>
     </item>
     
   </channel>
