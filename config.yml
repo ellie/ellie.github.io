@@ -1,7 +1,7 @@
 baseURL: "https://ellie.github.io/"
 title: Ellie's Blog
 paginate: 10
-theme: PaperModX
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -80,7 +80,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello there \U0001F44B"
+    Title: "👋"
     Content: |
       I'm Ellie. I write software, ride motorcycles, and generally just love to make things. I'm also pretty partial to some photography + weightlifting 💪
       
