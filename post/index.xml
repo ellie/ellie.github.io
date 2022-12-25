@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Ellie&#39;s Blog</title>
-    <link>https://ellie.github.io/post/</link>
+    <link>https://ellie.wtf/post/</link>
     <description>Recent content in Posts on Ellie&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Feb 2022 08:25:00 +0000</lastBuildDate><atom:link href="https://ellie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 08:25:00 +0000</lastBuildDate><atom:link href="https://ellie.wtf/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building an iPod for 2022</title>
-      <link>https://ellie.github.io/ipod/</link>
+      <link>https://ellie.wtf/ipod/</link>
       <pubDate>Mon, 14 Feb 2022 08:25:00 +0000</pubDate>
       
-      <guid>https://ellie.github.io/ipod/</guid>
+      <guid>https://ellie.wtf/ipod/</guid>
       <description>I modified an old iPod Video with more storage, a new casing, and more battery life. Also some fancy software :)</description>
     </item>
     
     <item>
       <title>Don&#39;t forget the human</title>
-      <link>https://ellie.github.io/dont-forget-the-human/</link>
+      <link>https://ellie.wtf/dont-forget-the-human/</link>
       <pubDate>Mon, 27 Jul 2020 17:14:25 +0000</pubDate>
       
-      <guid>https://ellie.github.io/dont-forget-the-human/</guid>
+      <guid>https://ellie.wtf/dont-forget-the-human/</guid>
       <description>Computers are cold and heartless. They don&amp;rsquo;t lie, and they don&amp;rsquo;t care if you scream and swear at them. You can abuse them all day long, and they&amp;rsquo;ll still efficiently flip bits and push pixels.
 But&amp;hellip; people aren&amp;rsquo;t. Behind every piece of software, there&amp;rsquo;s at least one human. Who has a heart, and who cares what you think. Who has hopes, and dreams, and fears. Who feels.
 This is something I&amp;rsquo;ve been wanting to write in one form or another for quite a while now, and I&amp;rsquo;ve been rewriting this post for a little too long.</description>
@@ -28,64 +28,64 @@ This is something I&amp;rsquo;ve been wanting to write in one form or another fo
     
     <item>
       <title>I&#39;ve started a personal wiki</title>
-      <link>https://ellie.github.io/ive-started-a-personal-wiki/</link>
+      <link>https://ellie.wtf/ive-started-a-personal-wiki/</link>
       <pubDate>Fri, 10 Apr 2020 13:45:29 +0000</pubDate>
       
-      <guid>https://ellie.github.io/ive-started-a-personal-wiki/</guid>
+      <guid>https://ellie.wtf/ive-started-a-personal-wiki/</guid>
       <description>There&amp;rsquo;s not much there at the moment, but it&amp;rsquo;s something I&amp;rsquo;ve been meaning to do for a while.</description>
     </item>
     
     <item>
       <title>My tools are going Rusty</title>
-      <link>https://ellie.github.io/my-tools-are-pretty-rusty/</link>
+      <link>https://ellie.wtf/my-tools-are-pretty-rusty/</link>
       <pubDate>Sun, 29 Mar 2020 01:07:31 +0000</pubDate>
       
-      <guid>https://ellie.github.io/my-tools-are-pretty-rusty/</guid>
+      <guid>https://ellie.wtf/my-tools-are-pretty-rusty/</guid>
       <description>Command line tools, rewritten in Rust</description>
     </item>
     
     <item>
       <title>I built a new keyboard</title>
-      <link>https://ellie.github.io/my-planck-keyboard/</link>
+      <link>https://ellie.wtf/my-planck-keyboard/</link>
       <pubDate>Wed, 26 Feb 2020 21:35:56 +0000</pubDate>
       
-      <guid>https://ellie.github.io/my-planck-keyboard/</guid>
+      <guid>https://ellie.wtf/my-planck-keyboard/</guid>
       <description>I love building keyboards, here&amp;rsquo;s my new Planck</description>
     </item>
     
     <item>
       <title>Rest APIs and SwiftUI</title>
-      <link>https://ellie.github.io/rest-apis-and-swiftui/</link>
+      <link>https://ellie.wtf/rest-apis-and-swiftui/</link>
       <pubDate>Sun, 23 Feb 2020 00:37:20 +0000</pubDate>
       
-      <guid>https://ellie.github.io/rest-apis-and-swiftui/</guid>
+      <guid>https://ellie.wtf/rest-apis-and-swiftui/</guid>
       <description>Just answering a question from someone. SwiftUI has a neat pattern for handling async data responses</description>
     </item>
     
     <item>
       <title>Lessons learned with Swift &#43; iOS development</title>
-      <link>https://ellie.github.io/lessons-learned-with-swift-ios-development/</link>
+      <link>https://ellie.wtf/lessons-learned-with-swift-ios-development/</link>
       <pubDate>Wed, 29 Jan 2020 14:00:13 +0000</pubDate>
       
-      <guid>https://ellie.github.io/lessons-learned-with-swift-ios-development/</guid>
+      <guid>https://ellie.wtf/lessons-learned-with-swift-ios-development/</guid>
       <description>I&amp;rsquo;ve been writing a lot of Swift and SwiftUI lately, here&amp;rsquo;s what I have learned</description>
     </item>
     
     <item>
       <title>My backup script</title>
-      <link>https://ellie.github.io/my-backup-script/</link>
+      <link>https://ellie.wtf/my-backup-script/</link>
       <pubDate>Wed, 08 Jan 2020 21:09:36 +0000</pubDate>
       
-      <guid>https://ellie.github.io/my-backup-script/</guid>
+      <guid>https://ellie.wtf/my-backup-script/</guid>
       <description>I bought a new external SSD, here&amp;rsquo;s a simple script I&amp;rsquo;m using to backup my laptop to it</description>
     </item>
     
     <item>
       <title>Geospatial queries with MongoDB</title>
-      <link>https://ellie.github.io/geospacial-queries-with-mongodb/</link>
+      <link>https://ellie.wtf/geospacial-queries-with-mongodb/</link>
       <pubDate>Thu, 25 Jul 2019 19:45:00 +0000</pubDate>
       
-      <guid>https://ellie.github.io/geospacial-queries-with-mongodb/</guid>
+      <guid>https://ellie.wtf/geospacial-queries-with-mongodb/</guid>
       <description>I&amp;rsquo;m currently playing with MongoDB and its geospatial queries. It’s pretty interesting so far, so I just thought I&amp;rsquo;d write something up to show how I&amp;rsquo;m using it with PyMongo!
 Firstly, the obvious pip install pymongo is needed. We will need a mongo client first, which is easy enough
 from pymongo import MongoClient client = MongoClient() It’s pretty neat - by default, MongoClient will connect to mongodb://localhost:27017.
