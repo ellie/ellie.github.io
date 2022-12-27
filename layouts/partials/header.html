@@ -60,7 +60,8 @@
         {{- $img = $img.Resize "x30" }}
         {{- end }}
         {{- end }}
-        <img src="{{ $img.Permalink }}" alt="" aria-label="logo" height="{{- site.Params.label.iconHeight | default "30" -}}">
+        <img src="{{ $img.Permalink }}" alt="" aria-label="logo" height="{{- site.Params.label.iconHeight | default "
+          30" -}}">
         {{- else }}
         <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
           height="{{- site.Params.label.iconHeight | default " 30" -}}">
@@ -142,8 +143,6 @@
       {{- end }}
     </ul>
   </nav>
-
-{{- if .IsHome }}
-    <div style="background-image: url(/images/home-cover.jpeg); height: 40vh; background-size: cover; background-position: center center;" />
-{{- end}}
 </header>
+
+<script defer data-domain="ellie.wtf" src="https://plausible.io/js/script.js"></script>
