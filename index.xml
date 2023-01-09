@@ -5,7 +5,17 @@
     <link>https://ellie.wtf/</link>
     <description>Recent content on Ellie&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 14 Feb 2022 08:25:00 +0000</lastBuildDate><atom:link href="https://ellie.wtf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Nov 2022 22:26:26 +0000</lastBuildDate><atom:link href="https://ellie.wtf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022, my year in review</title>
+      <link>https://ellie.wtf/2022/</link>
+      <pubDate>Tue, 15 Nov 2022 22:26:26 +0000</pubDate>
+      
+      <guid>https://ellie.wtf/2022/</guid>
+      <description>2022 has probably been one of the best years of my life, so I&amp;rsquo;d like to do my best to document everything that has happened - away from social media, and on something a little longer form! Who knows, maybe I&amp;rsquo;ll be posting something similar at the end of 2023. I&amp;rsquo;m writing this not so much for other people to read, but moreso for me to remember.
+I try to take the possibility that every day could be my last pretty seriously, and I&amp;rsquo;m really happy that I can look back on this year and feel like I&amp;rsquo;ve made the most of it.</description>
+    </item>
+    
     <item>
       <title>Building an iPod for 2022</title>
       <link>https://ellie.wtf/ipod/</link>
