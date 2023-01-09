@@ -5,6 +5,8 @@ description = ""
 draft = false
 slug = "2022"
 title = "2022, my year in review"
+cover:
+  image: "/images/2022/ipod.jpg"
 
 +++
 
