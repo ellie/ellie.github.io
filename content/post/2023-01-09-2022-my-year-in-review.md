@@ -1,14 +1,14 @@
-+++
-author = "Ellie Huxtable"
-date = 2022-11-15T22:26:26Z
-description = ""
-draft = false
-slug = "2022"
-title = "2022, my year in review"
+---
+author: "Ellie Huxtable"
+date: 2022-11-15T22:26:26Z
+description:  ""
+draft:  false
+slug:  "2022"
+title: "2022, my year in review"
 cover:
-  image: "/images/2022/ipod.jpg"
+  image: "/images/2022/701.jpg"
 
-+++
+---
 
 
 2022 has probably been one of the best years of my life, so I'd like to do my best to document everything that has happened - away from social media, and on something a little longer form! Who knows, maybe I'll be posting something similar at the end of 2023. I'm writing this not so much for other people to read, but moreso for me to remember.
@@ -82,6 +82,9 @@ In 2023 I'm hoping to get some more track time, try some riding disciplines I ha
 
 ## Photography
 I've always fancied trying photography - and in 2022 I did! I bought an A6400 and a couple of Sigma prime lenses from a friend, with their first proper outing being the Europe tour. I've really enjoyed taking photos this year, and I'm really looking forward to learning more in 2023.
+
+{{< figure src="/images/2022/castro.jpg" caption="A photo I took in the Castro, SF" >}}
+
 
 ## Gym
 2022 is also the first year where I pretty consistently went to the gym! I've been on-and-off forever, but starting in November 2021 I starting regularly lifting weights. The impact on my health and mood has been immense, and I've now found a new hobby.
