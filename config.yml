@@ -78,12 +78,8 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode
   homeInfoParams:
-    Title: "Hello!"
-    Content: |
-      I'm Ellie. I write software, ride motorcycles, and generally just love to make things. I'm also pretty partial to some photography + weightlifting 💪
-      You'll find that I mostly write about what I'm working on, how I'm spending my time, and things I have learned.
+    Title: "Hello! 👋"
 
   socialIcons:
     - name: mastodon

@@ -1,13 +1,17 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content">
-        {{ .Content | markdownify }}
-    </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" site.Params.socialIcons }}
-    </footer>
+  <header class="entry-header">
+    <h1>{{ .Title | markdownify }}</h1>
+  </header>
+  <div class="entry-content">
+    I'm Ellie. I write software, ride motorcycles, and generally just love to make things. I'm also pretty partial to
+    some photography + weightlifting 💪
+    <br>
+    <br>
+    You'll find that I mostly write about what I'm working on, how I'm spending my time, and things I have learned.
+  </div>
+  <footer class="entry-footer">
+    {{ partial "social_icons.html" site.Params.socialIcons }}
+  </footer>
 </article>
 {{- end -}}

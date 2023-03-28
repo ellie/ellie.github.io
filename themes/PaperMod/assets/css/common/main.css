@@ -66,3 +66,16 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+html, body, p {
+  font-family: 'Cardo', serif;
+font-weight: 200;
+line-height: 1.3;
+font-size: 1.1em;
+font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Alata', sans-serif;
+  font-weight: 700;
+}

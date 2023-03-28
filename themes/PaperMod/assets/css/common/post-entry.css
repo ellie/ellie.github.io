@@ -1,3 +1,4 @@
+
 .first-entry {
     position: relative;
     display: flex;
@@ -11,7 +12,6 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
 }
 
 .first-entry .entry-header h1 {
@@ -22,7 +22,6 @@
 .first-entry .entry-content {
     margin: 14px 0;
     font-size: 16px;
-    -webkit-line-clamp: 3;
 }
 
 .first-entry .entry-footer {
@@ -101,4 +100,31 @@
 .entry-cover a {
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
+}
+
+@media (min-width:1025px) {
+  .first-entry .entry-header h1 {
+      font-size: 50px;
+      line-height: 1.5;
+  }
+
+  .entry-header h2 {
+      font-size: 32px;
+  }
+
+  .entry-content {
+      font-size: 18px;
+  }
+
+  .entry-footer {
+      font-size: 16px;
+  }
+
+  .first-entry .entry-content {
+      font-size: 24px;
+  }
+
+  .first-entry .entry-footer {
+      font-size: 16px;
+  }
 }
