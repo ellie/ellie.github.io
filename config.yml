@@ -87,7 +87,7 @@ params:
 
   socialIcons:
     - name: mastodon
-      url: "https://sneaky.computer/@ellie"
+      url: "https://hachyderm.io/@ellie"
     - name: twitter
       url: "https://twitter.com/ellie_huxtable"
     - name: github
@@ -125,7 +125,7 @@ menu:
   main:
     - identifier: mastodon
       name: mastodon
-      url: https://sneaky.computer/@ellie
+      url: https://hachyderm.io/@ellie
       weight: 30
       params:
         external: true
